@@ -7,7 +7,7 @@ import "../config/cloudinary.js"
 dotenv.config()
 const getAll = async (req, res) => {
   try {
-    res.send("get All")
+    res.send("get All a")
   } catch (error) {
     res.status(error.code || 500).json({
       status: false,
